@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF072858</color>
+    <color name="colorPrimaryDark">#FF013B60</color>
+    <color name="colorAccent">#FF353335</color>
+
+    <color name="color_cover_layout">#aa001C43</color>
+    <color name="color_toolbar">#FF001C43</color>
+    <color name="color_line_toolbar">#EE0D54B7</color>
+    <color name="color_bg_home_grid">#8e0D54B7</color>
+    <color name="color_background_home_greeting">#DD012350</color>
+    <color name="color_background_home">#88012350</color>
+    <color name="color_background_home_selected">#AA001E3E</color>
+    <color name="color_home_icon">#FFDAAC4E</color>
+    <color name="bg_selected_tab">#CC072858</color>
+    <color name="bg_unselected_tab">#CC131E30</color>
+
+    <color name="bg_login_button">#FFF7A51A</color>
+    <color name="text_tab_title_selected">#faa61a</color>
+    <color name="white">#ffffffff</color>
+    <color name="colorBackgroundNavigation">#FF0963BF</color>
+    <color name="colorButtonDialog">#FF0963BF</color>
+    <color name="tab_center_bg">#ededed</color>
+    <color name="tabbar_divider">#FF7FACE2</color>
+    <color name="tab_active_bg">#FFDADADA</color>
+    <color name="tab_active_bg_light">#FF003275</color>
+    <color name="tab_active_bg_center">#FF01265B</color>
+    <color name="tab_active_bg_dark">#FF001C43</color>
+    <color name="bg_nav_bar_start">#FFDADADA</color>
+    <color name="bg_nav_bar_center">#FFF5F5F5</color>
+    <color name="bg_nav_bar_end">#FFFDFDFE</color>
+    <color name="color_text_nav">#FF666666</color>
+    <color name="color_bg_introduce">#FFECECEC</color>
+    <color name="color_text_hint">#FF002355</color>
+    <color name="color_bg_tab_account_unselected">#FF001C43</color>
+    <color name="color_viewpager_bg_account_manager">#FFFDFDFE</color>
+    <color name="bg_line_tabbar">#FF17386C</color>
+    <color name="title_tabbar_unselected_account_manager">#FFB2BAC6</color>
+    <color name="title_tabbar_selected_account_manager">#FFFAAE17</color>
+    <color name="text_color_account_info_title">#FF696769</color>
+    <color name="text_color_account_info_value">#FF001C40</color>
+    <color name="text_color_account_password_title">#aa353335</color>
+    <color name="text_color_account_password_hint">#FF1F3456</color>
+
+    <color name="color_hint_bg">#FF0B486E</color>
+    <color name="bg_confirm_button">#FFF8A41B</color>
+    <color name="bg_line_language">#FFB2B9C5</color>
+    <color name="bg_toggle">#44c858</color>
+    <color name="text_color_language">#FF0E284E</color>
+    <color name="text_color_nfc1">#021b42</color>
+    <color name="text_color_nfc2">#FF5F5D5F</color>
+    <color name="disable_button">#FF5F5D5F</color>
+    <color name="disable_button_text_color">#FFA6A5A6</color>
+    <color name="bg_header_history">#FF001C43</color>
+    <color name="bg_header_history_search">#FFF9A31D</color>
+    <color name="text_header_history">#FFB5B9C2</color>
+    <color name="text_hint_header_history">#FFF3F8FB</color>
+    <color name="black">#88000000</color>
+    <color name="bg_row_history">#FFF3F1F3</color>
+    <color name="text_row_history_title">#FF021860</color>
+    <color name="text_history_detail_value">#DD021861</color>
+    <color name="text_history_detail_title">#bb021860</color>
+    <color name="text_hint_sign_in">#FF696769</color>
+    <color name="color_error_text">#ff0000</color>
+</resources>

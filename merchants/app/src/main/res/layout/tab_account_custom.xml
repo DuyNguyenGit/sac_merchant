@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgTab"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/tvTabTitle"
+        android:layout_below="@+id/imgTab"
+        android:text=""
+        android:textSize="15sp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/title_tabbar_unselected_account_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_width=".5dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/tvTabTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_line_tabbar" />
+</RelativeLayout>

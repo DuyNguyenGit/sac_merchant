@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.impl.HistoryListFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        
+        <LinearLayout
+            android:background="@color/bg_header_history"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="4.3"
+            android:layout_marginRight=".5dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/cardID"
+                android:textSize="14sp"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/text_header_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/edtCard"
+                style="@style/style_edit_normal"
+                android:layout_height="20dp"
+                android:maxLength="4"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:textColorHint="@color/text_hint_header_history"
+                android:imeOptions="actionDone"
+                android:hint="@string/hint_card_id" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/text_header_history" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:background="@color/bg_header_history"
+            android:layout_width="0dp"
+            android:layout_weight="4.3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:text="@string/transaction_date"
+                android:textSize="15sp"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/text_header_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/edtDate"
+                style="@style/style_password_edit"
+                android:layout_height="20dp"
+                android:maxLength="10"
+                android:focusableInTouchMode="false"
+                android:windowSoftInputMode="stateHidden"
+                android:gravity="center"
+                android:textIsSelectable="true"
+                android:inputType="none"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:textColorHint="@color/text_hint_header_history"
+                android:imeOptions="actionDone"
+                android:hint="@string/hint_transaction_date" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/text_header_history" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnSearch"
+            android:background="@color/bg_header_history_search"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1.4"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/ic_search_history"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ln1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <RelativeLayout
+                android:layout_weight="6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tvHeaderBill"
+                    android:layout_width="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/table_col_bill_header"
+                    android:textColor="@color/text_row_history_title"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_alignParentRight="true"
+                    android:layout_width="1dp"
+                    android:background="@drawable/cell_shape"
+                    android:layout_height="match_parent" />
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:layout_height="1dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tvHeaderDate"
+                    android:layout_width="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/table_col_date_header"
+                    android:textColor="@color/text_row_history_title"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_alignParentRight="true"
+                    android:layout_width="1dp"
+                    android:background="@drawable/cell_shape"
+                    android:layout_height="match_parent" />
+
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:layout_height="1dp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_weight="6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tvHeaderMoney"
+                    android:layout_width="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/table_col_money"
+                    android:textColor="@color/text_row_history_title"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/cell_shape"
+                    android:layout_height="match_parent" />
+
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:layout_height="1dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lv_history"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"/>
+    </LinearLayout>
+
+</LinearLayout>

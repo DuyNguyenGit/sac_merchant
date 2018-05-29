@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">Merchant</string>
+    <string name="home_page_mobilepos_title">MobilePOS</string>
+    <string name="home_page_login_title">Quản lý tài khoản</string>
+    <string name="home_page_create_qr_code_title">Hiển thị QR Code</string>
+    <string name="home_page_histpty_transaction_title">History</string>
+    <string name="home_page_introduce_title">Giới thiệu</string>
+    <string name="home_page_user_guiline_title">Hướng dẫn</string>
+    <string name="greeting">Chào bạn, vui lòng đăng nhập để sử dụng dịch vụ ngân hàng chúng tôi!</string>
+    <string name="greeting_forgot_pass">Vui lòng nhập tên đăng nhập để nhận lại mật khẩu mới</string>
+    <string name="text_hint_forgot_pass">Tên đăng nhập</string>
+    <string name="text_button_forgot_pass">Tiếp tục</string>
+
+    <string-array name="home_item">
+        <item>MobilePos</item>
+        <item>Đăng nhập</item>
+        <item>Hiển thị QR Code</item>
+        <item>Lịch sử giao dịch</item>
+        <item>Giới thiệu</item>
+        <item>Hướng dẫn</item>
+    </string-array>
+
+    <string-array name="home_login_item">
+        <item>MobilePos</item>
+        <item>Quản lý tài khoản</item>
+        <item>Hiển thị QR Code</item>
+        <item>Lịch sử giao dịch</item>
+        <item>Giới thiệu</item>
+        <item>Hướng dẫn</item>
+    </string-array>
+
+    <string-array name="title_not_login">
+        <item>MobilePos</item>
+        <item>Đăng nhập</item>
+        <item>Hiển thị QR Code</item>
+        <item>Lịch sử giao dịch QR Code</item>
+        <item>Giới thiệu</item>
+        <item>Hướng dẫn</item>
+    </string-array>
+
+    <string-array name="title_logined">
+        <item>MobilePos</item>
+        <item>Quản lý tài khoản</item>
+        <item>Hiển thị QR Code</item>
+        <item>Lịch sử giao dịch QR Code</item>
+        <item>Giới thiệu</item>
+        <item>Hướng dẫn</item>
+    </string-array>
+
+    <string-array name="bottom_item">
+        <item>Hiển thị QR Code</item>
+        <item>MobilePos</item>
+        <item>Lịch sử giao dịch QR Code</item>
+        <item>Giới thiệu</item>
+    </string-array>
+
+    <string-array name="info_account_item">
+        <item>Mã đăng ký</item>
+        <item>Tên đăng ký</item>
+        <item>Thành phố</item>
+        <item>Mã dịch vụ</item>
+        <item>Số điện thoại</item>
+        <item>Địa chỉ</item>
+    </string-array>
+
+    <string name="login_title">Đăng nhập</string>
+    <string name="forgot_pass_title">Quên mật khẩu</string>
+    <string name="welcometo">Chào mừng bạn đến với Sacombank</string>
+    <string name="produce">Đăng nhập để sử dụng các tính năng của ứng dụng</string>
+
+    <string name="prompt_email">Tên đăng nhập</string>
+    <string name="prompt_password">Mật khẩu (Bao gồm 06 chữ số)</string>
+    <string name="action_sign_in">Đăng nhập</string>
+    <string name="action_sign_in_short">Đăng nhập</string>
+
+    <!--Bottom Tab Bar-->
+
+    <string name="tab_1_title">QR Code</string>
+    <string name="tab_2_title">MobilePOS</string>
+    <string name="tab_3_title">Lịch sử</string>
+    <string name="tab_4_title">Giới thiệu</string>
+    <string name="notify_update_mobilepos">Chức năng MobilePOS sẽ được cập nhật trong thời gian tới</string>
+    <string name="notify_update_mobilepos_button">Đóng</string>
+    <string name="warning_login">Bạn vui lòng đăng nhập để có thể sử dụng chức năng này</string>
+    <string name="action_skip">Bỏ qua</string>
+    <string name="mesage_introduce">(Sacombank tiến hành khai trương đồng loạt 11 Phòng giao dịch trên cơ sở nâng cấp từ các Quỹ tiết kiệm theo Công văn số 1990/NHNN-TTGSNH ngày 24/3/2017 của Ngân hàng Nhà nước Việt Nam. Không chỉ thực hiện các nghiệp vụ: huy động tiền gửi, phát hành và chiết khấu giấy tờ có giá, chi trả kiều hối, chuyển tiền trong nước… trong khuôn khổ của Quỹ tiết kiệm, các Phòng giao dịch khai trương sẽ được thực hiện đầy đủ các nghiệp vụ trong khuôn khổ được phép hoạt động của Phòng giao dịch NHTM bao gồm: nhận tiền gửi bằng VND, USD; tài trợ vốn vay cho khách hàng doanh nghiệp và cá nhân nhằm phục vụ nhu cầu kinh doanh và tiêu dùng, chuyển tiền nhanh thông qua các điểm giao dịch rộng khắp tại 48/63 tỉnh thành Việt Nam và 2 nước Lào, Campuchia; thực hiện các dịch vụ: thẻ, ngân hàng điện tử, bảo lãnh , bao thanh toán, thu chi trả lương hộ, kinh doanh và thu đổi ngoại tệ, chi trả kiều hối, các dịch vụ tư vấn tài chính và các hoạt động khác.</string>
+    <string name="tab_title_account_info">Thông tin</string>
+    <string name="tab_title_account_password">Mật Khẩu</string>
+    <string name="tab_title_account_language">Ngôn ngữ</string>
+    <string name="tab_title_qr_static">QR code tĩnh</string>
+    <string name="tab_title_qr_dynamic">QR code động</string>
+    <string name="tab_title_nfc">NFC</string>
+    <string name="text_account_password_title">Vui lòng cập nhật thông tin bên dưới</string>
+    <string name="title_password_old">Nhập mật khẩu cũ</string>
+    <string name="title_password_new1">Nhập mật khẩu mới</string>
+    <string name="title_password_new2">Nhập lại mật khẩu mới</string>
+    <string name="hint_password_old">••••••</string>
+    <string name="hint_password_new1">••••••</string>
+    <string name="hint_password_new2">••••••</string>
+    <string name="hint_email">Example@gmail.com</string>
+    <string name="hint_password">Bao gồm 6 số</string>
+    <string name="action_confirm">Xác nhận</string>
+    <string name="action_cancel_transaction">Hủy giao dịch</string>
+    <string name="action_cancel">Hủy</string>
+
+    <!-- TAB Language-->
+    <string name="confirm">Xác nhận</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="text_qrcode_dynamic_title">Nhập thông tin chi tiết đơn hàng:</string>
+    <string name="hint_qrcode_monney_total">0 đ</string>
+    <string name="hint_qrcode_monney_tip">0 đ</string>
+    <string name="hint_qrcode_bill_count">Nhập tối đa 26 ký tự</string>
+    <string name="hint_qrcode_description">Nhập không dấu, tối đa 26 ký tự</string>
+    <string name="total_money">Tổng số tiền</string>
+    <string name="tip_money">Số tiền tip</string>
+    <string name="bill_count">Mã đơn hàng</string>
+    <string name="description">Diễn giải</string>
+    <string name="nfc_warning1">Chức năng thanh toán qua NFC</string>
+    <string name="nfc_warning2">Sẽ được cập nhật trong thời gian sắp tới</string>
+    <string name="nfc_warning3">Cảm ơn bạn đã sử dụng dịch vụ của ngân hàng Sacombank</string>
+    <string name="text_qrcode_dynamic_generate_title">Mã QR code của đơn hàng được tạo từ hệ thống</string>
+    <string name="action_download">Tải về</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="action_complete">Hoàn tất</string>
+    <string name="close_dialog">Đóng</string>
+    <string name="cardID">4 số cuối của thẻ</string>
+    <string name="hint_card_id">XXXX</string>
+    <string name="transaction_date">Ngày giao dịch</string>
+    <string name="hint_transaction_date">dd/mm/yyyy</string>
+    <string name="table_col_status">Tình trạng</string>
+    <string name="table_col_money">Số tiền (đ)</string>
+    <string name="table_col_date_header">Thời gian</string>
+    <string name="table_col_bill_header">Mã đơn hàng</string>
+    <string name="history_title_refer_no">Số tham chiếu</string>
+    <string name="history_value_refer_no">S123456789</string>
+    <string name="history_title_batch_no">Số Batch</string>
+    <string name="history_value_batch_no">A123456789</string>
+    <string name="history_title_approve_no">Mã chuẩn chi</string>
+    <string name="history_value_approve_no">M123456789</string>
+    <string name="history_title_money">Số tiền</string>
+    <string name="history_value_money">100.000.000 đ</string>
+    <string name="history_title_card_no">Số thẻ</string>
+    <string name="history_value_card_no">012345678977</string>
+    <string name="history_title_account">Số tài khoản</string>
+    <string name="history_value_account">1321324348353342</string>
+    <string name="history_title_owner">Tên chủ thẻ</string>
+    <string name="history_value_owner">Nguyen Van Duy</string>
+    <string name="history_title_tip">Số tiền tip</string>
+    <string name="history_value_tip">0đ</string>
+    <string name="history_title_desc">Diễn giải</string>
+    <string name="history_value_desc">Thanh toán đơn hàng</string>
+    <string name="dialog_message_email">Vui lòng nhập email người nhận</string>
+    <string name="dialog_message_input_info_full">Vui lòng nhập đầy đủ thông tin</string>
+    <string name="dialog_message_email_wrong">Email không đúng định dạng. Vui lòng nhập lại</string>
+    <string name="dialog_message_password">Vui lòng nhập mật khẩu</string>
+    <string name="dialog_btn_continue">Tiếp tục</string>
+    <string name="dialog_share_success">Chia sẻ thành công</string>
+    <string name="dialog_share_error">Chia sẻ thất bại</string>
+    <string name="dialog_qrcode_create_error">Tạo QR Code bị lỗi, vui lòng thử lại</string>
+    <string name="dialog_not_internet">Vui lòng kết nối mạng để sử dụng ứng dụng</string>
+    <string name="dialog_not_found_data">Không tìm thấy dữ liệu !</string>
+    <string name="dialog_please_input_full_data">Vui lòng nhập đầy đủ ngày giao dịch.</string>
+    <string name="forgot_pass2_message">Vui lòng cập nhật lại mật khẩu khác để nâng cao tính bảo mật và sự thuận tiện</string>
+    <string name="promt_password">Nhập mật khẩu</string>
+    <string name="prompt_password_again">Nhập lại mật khẩu</string>
+    <string name="retry_dialog">Thử lại</string>
+    <string name="language_dialog_msg">Vui lòng chọn loại ngộn ngữ phù hợp</string>
+    <string name="dvt"> đồng</string>
+    <string name="confirm_logout">Bạn muốn đăng xuất tài khoản này?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_create">Tạo mới</string>
+    <string name="action_createnew">Tạo mới</string>
+    <string name="dialogcheckpass">Mật khẩu lần hai không trùng khớp với mật khẩu lần một</string>
+    <string name="signinotvaluel">Vui lòng nhập tên đăng nhập và mật khẩu</string>
+    <string name="forgotAccount">Vui lòng nhập tên đăng nhập</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/toolBar"
+            android:background="@color/color_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <ImageView
+                android:id="@+id/imgHome"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_home"
+                android:scaleType="centerInside"
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/logo"
+                android:scaleType="centerInside"
+                android:layout_width="200dp"
+                android:layout_height="50dp" />
+            <ImageView
+                android:id="@+id/imgLock"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_power"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_line_toolbar"/>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/cover_layout_common"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_cover_layout"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progress_bar_common_medium"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="@dimen/progress_bar_size_medium"
+            android:layout_height="@dimen/progress_bar_size_medium"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+</FrameLayout>

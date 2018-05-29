@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_row_history"
+    android:layout_height="60dp">
+
+
+    <RelativeLayout
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgStatus"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:scaleType="centerInside"
+            android:layout_width="23dp"
+            android:layout_height="23dp" />
+
+        <TextView
+            android:id="@+id/tvBill"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgStatus"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingRight="4dp"
+            android:textColor="@color/text_color_language"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_alignParentRight="true"
+            android:layout_width="1dp"
+            android:background="@drawable/cell_shape"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/text_color_language"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_alignParentRight="true"
+            android:layout_width="1dp"
+            android:background="@drawable/cell_shape"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvMoney"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/text_color_language"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/cell_shape"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+
+</LinearLayout>

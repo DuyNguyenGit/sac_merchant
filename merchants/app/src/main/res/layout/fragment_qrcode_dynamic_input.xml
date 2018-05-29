@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".view.impl.AccountPasswordFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp">
+
+                <TextView
+                    android:id="@+id/tvMoneyTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/total_money"
+                    android:textColor="@color/text_color_language"
+                    android:textSize="15sp" />
+
+
+                <EditText
+                    android:id="@+id/edtMoneyTotal"
+                    style="@style/style_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tvMoneyTotal"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/hint_qrcode_monney_total"
+                    android:inputType="numberDecimal"
+                    android:maxLength="30"
+                    android:textSize="14sp"
+                    android:textColorHint="@color/text_color_account_password_title" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height=".5dp"
+                    android:layout_below="@+id/tvMoneyTotal"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/bg_line_language" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp">
+
+                <TextView
+                    android:id="@+id/tvMoneyTip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/tip_money"
+                    android:textColor="@color/text_color_language"
+                    android:textSize="15sp" />
+
+
+                <EditText
+                    android:id="@+id/edtMoneyTip"
+                    style="@style/style_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tvMoneyTip"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/hint_qrcode_monney_tip"
+                    android:inputType="numberDecimal"
+                    android:maxLength="30"
+                    android:textSize="14sp"
+                    android:textColorHint="@color/text_color_account_password_title" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height=".5dp"
+                    android:layout_below="@+id/tvMoneyTip"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/bg_line_language" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp">
+
+                <TextView
+                    android:id="@+id/tvBillCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/bill_count"
+                    android:textColor="@color/text_color_language"
+                    android:textSize="15sp" />
+
+
+                <EditText
+                    android:id="@+id/edtBillCount"
+                    style="@style/style_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tvBillCount"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/hint_qrcode_bill_count"
+                    android:inputType="textCapSentences"
+                    android:maxLength="30"
+                    android:textSize="14sp"
+                    android:textColorHint="@color/text_color_account_password_title" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height=".5dp"
+                    android:layout_below="@+id/tvBillCount"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/bg_line_language" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp">
+
+                <TextView
+                    android:id="@+id/tvDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/description"
+                    android:textColor="@color/text_color_language"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtDescription"
+                    style="@style/style_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tvDescription"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/hint_qrcode_description"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLength="26"
+                    android:textSize="14sp"
+                    android:textColorHint="@color/text_color_account_password_title" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height=".5dp"
+                    android:layout_below="@+id/tvDescription"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/bg_line_language" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_button_cancel"
+                    android:text="@string/action_cancel"
+                    android:textAllCaps="false"
+                    android:textColor="@color/bg_confirm_button"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnComplete"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_button_confirm"
+                    android:text="@string/action_complete"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

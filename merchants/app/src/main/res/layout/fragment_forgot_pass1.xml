@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/greeting_forgot_pass"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtAccount"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="@string/text_hint_forgot_pass"
+        android:textSize="16sp"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:fontFamily="sans-serif"
+        android:textColorHint="@color/text_hint_sign_in"
+        android:textColor="@color/colorPrimaryDark"
+        android:imeOptions="actionUnspecified"
+        android:inputType="text"
+        android:maxLines="1"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        style="?android:textAppearanceMedium"
+        android:background="@drawable/login_button_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"
+        android:text="@string/text_button_forgot_pass"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</LinearLayout>

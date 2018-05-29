@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/forgot_pass2_message"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/edtPass1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="@string/promt_password"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/text_hint_sign_in"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:imeOptions="actionNext"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/edtPass2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="@string/prompt_password_again"
+        android:imeActionId="@+id/login"
+        android:inputType = "numberPassword"
+        android:textColorHint="@color/text_hint_sign_in"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionDone"
+        android:maxLines="1"/>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        style="?android:textAppearanceMedium"
+        android:background="@drawable/login_button_bg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"
+        android:text="@string/action_confirm"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSkip"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        style="?android:textAppearanceMedium"
+        android:text="@string/action_skip"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

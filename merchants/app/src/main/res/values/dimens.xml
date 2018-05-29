@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="progress_bar_size_medium">50dp</dimen>
+    <dimen name="font_size_large">16sp</dimen>
+    <dimen name="font_size_normal">14sp</dimen>
+    <dimen name="min_height_editext">25dp</dimen>
+    <dimen name="margin_top_edittext">10dp</dimen>
+    <dimen name="height_edittext">40dp</dimen>
+    <dimen name="font_size_huge">16sp</dimen>
+    <dimen name="edt_padding_left">10dp</dimen>
+
+
+    <!-- Spacing -->
+    <dimen name="spacing_micro">2dp</dimen>
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_huge">32dp</dimen>
+</resources>
